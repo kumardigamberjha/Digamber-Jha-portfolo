@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.head{
+    max-width: 100%;
+    max-height: 100vh;
+    position: relative;
+}
+.head .navbar{
+    text-align: center;
+    left: 30%;
+    position: absolute;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.head .navbar ul li{
+    margin-top: 15px;
+}
+.head .navbar ul li a{
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.head .navbar a:hover{
+    color: blue;
+    transition: .7s ease;
+}
+.myskills{
+    position: absolute;
+    top: 8rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.myskills .div h1{
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding: 1rem;
+    background-image: linear-gradient(rgb(87, 143, 143), cyan, rgb(52, 192, 192));
+}
+.myskills .div h1:hover{
+    color: white;
+    border: 1px solid transparent;
+    background-image: linear-gradient(rgb(52, 192, 192), cyan, rgb(87, 143, 143));
+    transition: 2s ease;
+}
+.myskills .skills{
+    display: flex;
+    justify-content: center;
+}
+.myskills .skills .col-md-3{
+    margin: 2rem 3rem;
+    padding: 3rem;
+    background-color: cyan;
+    border: 1px solid transparent;
+    border-radius: 45px;
+}
+.myskills .skills .col-md-3:hover{
+    background-color: white;
+    border-color: blue;
+}
+
+.myskills .col-md-3 a img{
+    padding: 1rem 1rem;
+    margin: 0 -22px;
+    width: 250px;
+    height: 150px;
+}
+.myskills .col-md-3 p{
+    text-align: center;
+}

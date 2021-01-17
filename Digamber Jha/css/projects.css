@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    position: relative;
+}
+.head .navbar ul li{
+    margin-top: 15px;
+}
+.head .navbar ul li a{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+.head .navbar a img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.head .navbar{
+    text-align: center;
+    margin-left: 30%;
+}
+.myprojects h1, .projects h1{
+    border: 1px solid transparent;
+    width: 90%;
+    margin: 3rem 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+    text-align: center;
+    background-image: linear-gradient(rgb(87, 143, 143), cyan, rgb(52, 192, 192));
+    border-radius: 33px;
+}
+.myprojects h1:hover, .projects h1:hover{
+    color: white;
+    border: 1px solid transparent;
+    background-image: linear-gradient(rgb(52, 192, 192), cyan, rgb(87, 143, 143));
+    transition: 2s ease;
+}
+.carousel-inner{
+    width: 70%;
+    height: auto;
+    margin-left: 16%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: tomato;
+    background-color: black;
+}
+.projects .col-md-3 {
+    margin: 1rem 2rem;
+    margin-left: 3.4rem;
+}
+.projects .col-md-3 p{
+    text-align: center;
+}
+.projects .col-md-3 img{
+    padding: 1rem 1rem;
+    width: 250px;
+    height: 150px;
+}

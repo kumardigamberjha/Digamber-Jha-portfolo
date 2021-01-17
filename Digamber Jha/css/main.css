@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.head{
+    position: relative;
+}
+.head .navbar{
+    text-align: center;
+    left: 30%;
+    position: absolute;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.head .navbar ul li{
+    margin-top: 15px;
+}
+.head .navbar ul li a{
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.head .navbar a:hover{
+    color: blue;
+    transition: .7s ease;
+}
+.head #bgimage{
+    width: 100%;
+    height: 100vh;
+}
+.wlcmtext{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 32%;
+}
+.wlcmtext h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: Black;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding: 1rem 3rem;
+}
+.wlcmtext h1:hover{
+    color: blue;
+    border-color: blue;
+    background: linear-gradient(orange, white, green);
+    transition: 1.5s ease;
+}
+.wlcmoption{
+    margin: 1rem;
+}
+.navbar-brand img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.wlcmoption a{
+    padding: 1rem 3rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.wlcmoption a:hover{
+    color: blue;
+    background-color: thistle;
+    border: 1px solid blue;
+    transition: 2s ease;
+}
+.extra-div .heading{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 33px;
+    background-image: linear-gradient(rgb(87, 143, 143), cyan, rgb(52, 192, 192));
+
+}
+.extra-div .heading:hover{
+    color: white;
+    background-image: linear-gradient( cyan, rgb(52, 192, 192), rgb(87, 143, 143));
+    transition: 2s ease;    
+}
+.extra-div .options{
+    display: flex;
+}
+.extra-div .options .col-md-3{
+    margin: 2rem 2rem;
+    padding: 3rem;
+    border: 1px solid transparent;
+    border-radius: 45px;
+}
+.extra-div .options .col-md-3 img{
+    padding: 1rem 1rem;
+    width: 250px;
+    height: 150px;
+}
+.extra-div .options .col-md-3 p{
+    text-align: center;
+    margin: 20px 25px;
+}
+.extra-div .options .box:hover{
+    color: black;
+    transform: translateY(-10px);
+    transition: .6s ease;
+}
+.contactus{
+    background-color: rgba(21, 58, 223, 0.925);
+    color: white;
+
+}
+.contactus .block{
+    display: flex;
+    justify-content:space-around;
+}
+.contactus input{
+    margin: 2px 25px;
+    padding: 0px 15px;
+}
+.contactus label{
+    margin: 2px 50px;
+
+}
+.contactus form{
+    margin-top: 15px;
+}
+#name{
+    margin: 0 20px;
+}
+.contactus .sm{
+    margin-top: 15px;
+}
+.contactus .sm a{
+    padding: 0.5rem;
+    color: black;
+}
+.contactus .sm a img{
+    margin: 0 8px;
+    width: 1rem;
+    height: auto;
+}
+.contactus .sm a:hover{
+    color: white;
+}
+.contactus .btn{
+    margin: 5px 170px;
+    padding: 1px 40px;
+    border-radius: 33px;
+    background-color: white;
+    border: 1px solid black;
+}

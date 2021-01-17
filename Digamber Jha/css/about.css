@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.head{
+    position: relative;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+.head .navbar ul li{
+    margin-top: 15px;
+}
+.head .navbar ul li a{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+.head .navbar a img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.head .navbar{
+    text-align: center;
+    /* left: 30%; */
+    margin-left: 30%;
+}
+.extra-head .col-md-3{
+    text-align: center;
+    -webkit-text-stroke: 2px;
+    color: white;
+    -webkit-text-stroke-color: black;
+
+}
+.extra-head .col-md-3 img{
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10%;
+}
+.extra-head .col-md-8{
+    /* text-align: center; */
+    margin-top: 0.5rem;
+}
+.extra-head .col-md-8 h3{
+    color: black;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.extra-head .col-md-8 p{
+    margin-top: 25px;
+    font-family: cursive;
+    color: black;
+}
+.container .text{
+    text-align: center;
+    
+}
+.container .text p{
+    margin: 15px;
+}
+.container .text p span{
+    /* display: flex; */
+    margin: 0 30px;
+    /* justify-content: center; */
+}
+.skills{
+    margin-top: 5rem;
+}
+.skills .col-md-3 img{
+    text-align: center;
+    margin: 0 100px;
+    width: 90px;
+    height: auto;
+    padding: 15px;
+}
+.skills .col-md-8{
+    text-align: center;
+    margin-top: 5px;
+    padding: 18px;
+}
+#python{
+    margin-top: 40px;
+    width: 110px;
+    height: 100px;
+}
+#abouts{
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding: 1rem;
+    background-image: linear-gradient(rgb(87, 143, 143), cyan, rgb(52, 192, 192));
+}
+#abouts:hover{
+    color: white;
+    border: 1px solid transparent;
+    background-image: linear-gradient(rgb(52, 192, 192), cyan, rgb(87, 143, 143));
+    transition: 2s ease;
+}
