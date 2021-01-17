@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio- Digamber Jha</title>
+
+    <!-- {%load static %} -->
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- css -->
+    <!-- <link rel="stylesheet" href="{%static 'css/contactus.css' %}"> -->
+    <link rel="stylesheet" href="contactus.css">
+</head>
+
+<body>
+    <div class="head">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="{%static 'images/digamber.jpg' %}" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'skills' %}">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'projects' %}">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'about' %}">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'contactus' %}">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- <img id="bg" src="{% static '/images/style.png' %}" alt=""> -->
+        <img id="bg" src="style.png" alt="">
+    </div>
+
+    <div class="container">
+        <form class="form" action="" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="58" rows="5"></textarea>
+
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
